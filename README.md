@@ -8,5 +8,6 @@ STB   - public domain libraries easy to embed in projects - https://github.com/n
 GLFW  - multiplatform OpenGl library - http://www.glfw.org
 
 
-![Alt text](main.png?raw=true "Screenshot")
+![screenshot](https://github.com/gwerners/workoutGUI/blob/master/main.png)
+
 
