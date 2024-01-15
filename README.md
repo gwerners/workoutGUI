@@ -7,11 +7,11 @@ If you are using NixOs, just run *enter.sh* to set an environment with all depen
 
 ## Dependencies:
 
-![RAYLIB](https://www.raylib.com/) - a simple and easy-to-use library to enjoy videogames programming
+[RAYLIB](https://www.raylib.com/) - a simple and easy-to-use library to enjoy videogames programming
 
-![IMGUI](https://github.com/ocornut/imgui) - amazing gui library
+[IMGUI](https://github.com/ocornut/imgui) - amazing gui library
 
-![RLIMGUI](https://github.com/raylib-extras/rlImGui) - A Raylib integration with DearImGui
+[RLIMGUI](https://github.com/raylib-extras/rlImGui) - A Raylib integration with DearImGui
 
 ![screenshot](https://github.com/gwerners/workoutGUI/blob/master/main.png)
 
