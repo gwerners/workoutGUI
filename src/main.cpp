@@ -22,12 +22,12 @@
 
 #include <vector>
 
-const unsigned int wait4seconds = 5;
+const unsigned int wait4seconds = 60;
 
 unsigned int width = 1280;
 unsigned int height = 720;
 std::vector<std::string> users;
-int user = -1;
+
 int u = 0;
 
 std::vector<std::string> routines;
@@ -342,7 +342,7 @@ static void showWorkoutGui(const Sound& alarm) {
       PlaySound(alarm);
     }
     if (dingdong) {
-      ImGui::Text("Aguarde %.2d...", (int)(dingdong - time(NULL)));
+      ImGui::Text("Wait %.2d...", (int)(dingdong - time(NULL)));
       ImGui::SameLine(0, 20);
     }
     // ImGui::SameLine(0, 20);
@@ -489,8 +489,7 @@ int main(int argc, char* argv[]) {
   int screenHeight = 800;
 
   SetConfigFlags(FLAG_MSAA_4X_HINT | FLAG_VSYNC_HINT | FLAG_WINDOW_RESIZABLE);
-  InitWindow(screenWidth, screenHeight,
-             "raylib-Extras [ImGui] example - simple ImGui Demo");
+  InitWindow(screenWidth, screenHeight, "Workout Gui + ImGui Demo");
   SetTargetFPS(144);
   rlImGuiSetup(true);
   InitAudioDevice();  // Initialize audio device
